@@ -1,0 +1,157 @@
+*, *:after, *:before {
+    margin: 0;
+        padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: white;
+
+}
+.logo-image {
+    width: 100px;
+
+}
+.navigation-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 15px;
+}
+.offers {
+    width: 350px;
+}
+.input_searchfield {
+    width: 75px;
+}
+.navlink {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    background-color:black;
+    padding: 13px;
+    text-decoration: none;
+}
+.menu-container {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    z-index: 3;
+}
+
+.mobilemenu {
+    display: none;
+    clear: both;
+    text-align: center;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+}
+
+.menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    padding: 8px 10px;
+    position: relative;
+    user-select: none;
+    color: white;
+}
+
+.navicon {
+    background: black;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 18px;
+}
+
+.navicon:before,
+.navicon:after {
+    background: black;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+
+.navicon:before {
+    top: 5px;
+}
+
+.navicon:after {
+    top: -5px;
+}
+
+.menu-btn {
+    display: none;
+}
+
+.menu-btn:checked ~ .mobilemenu {
+    display: block;
+    max-height: 300px;
+}
+
+.menu-btn:checked ~ .menu-icon .navicon {
+    background: transparent;
+}
+
+.menu-btn:checked ~ .menu-icon .navicon:before {
+    transform: rotate(-45deg);
+}
+
+.menu-btn:checked ~ .menu-icon .navicon:after {
+    transform: rotate(45deg);
+}
+
+.menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+    top: 0;
+}
+.offers{
+    width: 100%;
+    margin: 0 0 0 0;
+}
+
+.article1{
+    max-width: 100%;
+     margin: 0 30% 0 0;
+}
+
+.article_container{
+    padding:5px;
+    background-color: white;
+    margin: 5% 10%;
+    opacity: 100%;
+}
+
+.nadpis {
+    font-size: 22px;
+
+}
+
+.articlepopis {
+    text-align: center;
+}
+
+.popistok {
+    font-size: 18px;
+}
+
+.footer {
+    background-color: saddlebrown;
+    padding: 80px;
+    border: 1px solid black;
+}
+
+.followus{
+
+    color: black;
+    font-size: 20px;
+}
+
+
