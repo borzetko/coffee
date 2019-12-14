@@ -1,0 +1,54 @@
+
+.main_container{
+margin: 0 auto;
+    width: 90%;
+    font-size: 35px;
+    color: saddlebrown;
+    text-align: center;
+
+}
+.box {
+    width: 70%;
+
+}
+.products {
+    width: 60%;
+    text-align: center;
+}
+.box-container {
+    width: 100%;
+
+}
+.wrapper-container {
+    display: flex;
+    flex-direction: column;
+}
+.addtocart-button {
+    text-decoration: none;
+    color: white;
+    background-color: burlywood;
+    padding: 5px 15px;
+
+
+}
+.product-container {
+    margin-bottom: 100px;
+    border: 1px solid black;
+    padding: 15px;
+}
+.coffeenames {
+    font-size: 45px;
+    text-align: center;
+    color: black;
+}
+.coffee-description{
+    text-align: center;
+    font-size: 25px;
+}
+.productlist-container {
+    width:80%;
+    margin: 0 auto;
+}
+.weight {
+    margin-bottom: 25px;
+}
