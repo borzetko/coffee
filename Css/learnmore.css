@@ -19,3 +19,19 @@ margin: 0 auto;
     position: relative;
     opacity: 60%;
 }
+@media only screen and (min-width: 500px)
+{
+    .obrazok1 {
+        width: 50%;
+    }
+    .obrazok2 {
+        width: 40%;
+
+    }
+    .popisarticle {
+        font-size: 20px;
+        text-align: center;
+        margin: 0 auto;
+    width: 50%;
+    }
+}

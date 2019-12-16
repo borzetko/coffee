@@ -28,6 +28,7 @@ margin: 0 auto;
     color: white;
     background-color: burlywood;
     padding: 5px 15px;
+    font-size: 30px;
 
 
 }
@@ -52,3 +53,14 @@ margin: 0 auto;
 .weight {
     margin-bottom: 25px;
 }
+@media only screen and (min-width: 500px) {
+
+
+    .box{
+        width: 20%;
+}
+
+   .products {
+       width: 20%;
+
+    }

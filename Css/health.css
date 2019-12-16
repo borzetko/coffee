@@ -1,0 +1,38 @@
+.main_container{
+margin: 0 auto;
+    width: 80%;
+    font-size: 16px;
+    color: saddlebrown;
+}
+.coffee-drink {
+    opacity: 80%;
+
+}
+@media only screen and (min-width: 500px) {
+        .main_container {
+        margin: 0 auto;
+        width: 50%;
+        font-size: 25px;
+        color: saddlebrown;
+        text-align: center;
+    }
+
+    .coffee-drink {
+     width: 50%;
+    }
+.health-article {
+    font-size: 25px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.nadpis {
+    font-size: 40px;
+}
+.health-benefits {
+    font-size: 40px;
+}
+
+}
+
+
